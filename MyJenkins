@@ -20,7 +20,7 @@ pipeline {
         }        
         stage('Deploy') {
             steps {
-                bat 'C:/Users/DBTEKOO/Desktop/Jenkins(Testing)/MyCar.bat'
+                bat 'C:/Users/DBTEKOO/Desktop/Jenkins(Testing)/MyCar2.bat'
             }
         }        
     }
