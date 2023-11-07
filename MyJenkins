@@ -22,6 +22,11 @@ pipeline {
             steps {
                 bat 'C:/Users/DBTEKOO/Desktop/Jenkins/MyCar2.bat'
             }
-        }        
+        } 
+        stage('Deploy'2) {
+            steps {
+                bat 'C:/Users/DBTEKOO/Desktop/Jenkins/MyCar2.bat'
+            }
+        }  		
     }
 }
