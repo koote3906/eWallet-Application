@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building ..... Loading' 
+                dir('C:/Users/DBTEKOO/Desktop/Jenkins(Testing)/MyCar.bat'){
+                }
             }
         }
         stage('Test') {
@@ -19,7 +20,7 @@ pipeline {
         }        
         stage('Deploy') {
             steps {
-                echo 'Deloying ..... Loading' 
+                bat 'C:/Users/sqwjng/Desktop/Jenkins/Day2/MyCar2.bat'
             }
         }        
     }
