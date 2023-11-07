@@ -23,7 +23,7 @@ pipeline {
                 bat 'C:/Users/DBTEKOO/Desktop/Jenkins/MyCar2.bat'
             }
         } 
-        stage('Deploy'2) {
+        stage('Deploy2') {
             steps {
                 bat 'C:/Users/DBTEKOO/Desktop/Jenkins/MyCar2.bat'
             }
